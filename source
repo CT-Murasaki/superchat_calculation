@@ -29,7 +29,7 @@ WebAutomation.GetDetailsOfElement BrowserInstance: Browser Control: appmask['Web
             END
         END
     END
-    Display.ShowMessageDialog.ShowMessage Title: $'''合計金額''' Message: $'''あなたが戌宮 / 戌未ユニさんに使った額は%NewVar3%円です''' Icon: Display.Icon.Information Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: True ButtonPressed=> ButtonPressed
+    Display.ShowMessageDialog.ShowMessage Title: $'''合計金額''' Message: $'''あなたが%UserInput%さんに使った額は%NewVar3%円です''' Icon: Display.Icon.Information Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: True ButtonPressed=> ButtonPressed
 END
 
 # [ControlRepository][PowerAutomateDesktop]
